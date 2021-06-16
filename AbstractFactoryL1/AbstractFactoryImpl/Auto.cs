@@ -130,7 +130,7 @@ namespace AbstractFactoryL1.AbstractFactoryImpl
         /// </summary>
         /// <param name = "speed"> Speed. </param>
         /// <returns> Distance traveled per hour. </returns>
-        protected double Step(double speed)
+        public double Step(double speed)
         {
             var actualSpeed = speed < Engine.MaxSpeed ? speed : Engine.MaxSpeed;
             actualSpeed *= Body.Aerodynamic;

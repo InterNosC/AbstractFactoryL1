@@ -93,7 +93,7 @@ namespace AbstractFactoryL1.BaseImpl
         /// </summary>
         /// <param name = "speed"> The speed of the movement. </param>
         /// <returns> Distance traveled per step. </returns>
-        private double Step(double speed)
+        public double Step(double speed)
         {
             // Determine the actual speed.
             var actualSpeed = speed < Engine.MaxSpeed ? speed : Engine.MaxSpeed;

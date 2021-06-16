@@ -52,4 +52,33 @@ namespace TestBaseImpl
             Assert.That(tank.Spend(fuel) == 1);
         }
     }
+
+    [TestFixture]
+    public class TestStep
+    {
+        [Test]
+        public void Step_CarStep_TermIsTrue()
+        {
+            var body = new Body("Priora", 1.0, 100000, 2000, 300);
+            var engine = new Engine("v8", 200, 150000, 200);
+            var tank = new Tank("Standard", 48, 30000, 40);
+
+            var body2 = new Body("Priora", 1.0, 100000, 2000, 300);
+            var engine2 = new Engine("v8", 200, 150000, 200);
+            var tank2 = new Tank("Standard", 48, 30000, 40);
+
+            var car = new Car(body2, engine2, tank2);
+
+            var speed = 150;
+            var actualSpeed = speed < engine.MaxSpeed ? speed : engine.MaxSpeed;
+            actualSpeed *= body.Aerodynamic;
+            actualSpeed *= tank.SpeedFactor;
+            var needFuel = engine.GetConsumption(actualSpeed);
+            var pathRate = tank.Spend(needFuel);
+            var path = actualSpeed * pathRate;
+
+
+            Assert.That(car.Step(speed) == path);
+        }
+    }
 }

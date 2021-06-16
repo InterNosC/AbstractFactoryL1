@@ -46,5 +46,52 @@ namespace TestAbstrastFactory
                 Assert.That(tank.Spend(fuel) == result);
             }
         }
+
+        [TestFixture]
+        public class TestStep
+        {
+            [Test]
+            public void Step_CarStep_TermIsTrue()
+            {
+                var factory = new CarFactory();
+                var auto = new Auto(factory);
+                var Engine = factory.CreateEngine();
+                var Body = factory.CreateBody();
+                var Tank = factory.CreateTank();
+
+                var speed = 300;
+                var actualSpeed = speed < Engine.MaxSpeed ? speed : Engine.MaxSpeed;
+                actualSpeed *= Body.Aerodynamic;
+                actualSpeed *= Tank.SpeedFactor;
+                var needFuel = Engine.GetConsumption(actualSpeed);
+                var pathRate = Tank.Spend(needFuel);
+                var path = actualSpeed * pathRate;
+
+
+                Assert.That(auto.Step(300) == path);
+            }
+
+
+            [Test]
+            public void Step_TruckStep_TermIsTrue()
+            {
+                var factory = new TruckFactory();
+                var auto = new Auto(factory);
+                var Engine = factory.CreateEngine();
+                var Body = factory.CreateBody();
+                var Tank = factory.CreateTank();
+
+                var speed = 300;
+                var actualSpeed = speed < Engine.MaxSpeed ? speed : Engine.MaxSpeed;
+                actualSpeed *= Body.Aerodynamic;
+                actualSpeed *= Tank.SpeedFactor;
+                var needFuel = Engine.GetConsumption(actualSpeed);
+                var pathRate = Tank.Spend(needFuel);
+                var path = actualSpeed * pathRate;
+
+
+                Assert.That(auto.Step(300) == path);
+            }
+        }
     }
 }
