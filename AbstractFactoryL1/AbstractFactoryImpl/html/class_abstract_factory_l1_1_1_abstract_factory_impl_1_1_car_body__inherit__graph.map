@@ -1,0 +1,5 @@
+<map id="AbstractFactoryL1.AbstractFactoryImpl.CarBody" name="AbstractFactoryL1.AbstractFactoryImpl.CarBody">
+<area shape="rect" id="node1" title="The body of a passenger car." alt="" coords="5,300,188,451"/>
+<area shape="rect" id="node2" href="$interface_abstract_factory_l1_1_1_abstract_factory_impl_1_1_i_body.html" title="Car bodies. Defines general properties and methods specific to any corpus, no matter what family it b..." alt="" coords="41,160,152,252"/>
+<area shape="rect" id="node3" href="$interface_abstract_factory_l1_1_1_abstract_factory_impl_1_1_i_component.html" title="Defines common properties for all vehicle components. Does not apply to the abstract factory pattern,..." alt="" coords="51,5,142,112"/>
+</map>

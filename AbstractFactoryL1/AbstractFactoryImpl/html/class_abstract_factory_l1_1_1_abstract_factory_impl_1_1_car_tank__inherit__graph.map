@@ -1,0 +1,5 @@
+<map id="AbstractFactoryL1.AbstractFactoryImpl.CarTank" name="AbstractFactoryL1.AbstractFactoryImpl.CarTank">
+<area shape="rect" id="node1" title="Fuel tank of a passenger car." alt="" coords="5,329,188,524"/>
+<area shape="rect" id="node2" href="$interface_abstract_factory_l1_1_1_abstract_factory_impl_1_1_i_tank.html" title="Fuel tanks of the car. Defines general properties and methods specific to any tank,..." alt="" coords="43,160,151,281"/>
+<area shape="rect" id="node3" href="$interface_abstract_factory_l1_1_1_abstract_factory_impl_1_1_i_component.html" title="Defines common properties for all vehicle components. Does not apply to the abstract factory pattern,..." alt="" coords="51,5,142,112"/>
+</map>

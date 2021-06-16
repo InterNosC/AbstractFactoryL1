@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interface_abstract_factory_l1_1_1_abstract_factory_impl_1_1_i_auto_factory.html" title="Abstract factory for the production of cars." alt="" coords="5,39,188,80"/>
+<area shape="rect" id="node2" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_car_factory.html" title="Factory for a passenger car. Defines a family of components for a passenger car. Contains factory met..." alt="" coords="236,5,419,47"/>
+<area shape="rect" id="node3" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_truck_factory.html" title="Factory for the production of trucks. Defines a family of trucks. Contains factory methods." alt="" coords="236,71,419,112"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="AbstractFactoryL1.AbstractFactoryImpl.IComponent" name="AbstractFactoryL1.AbstractFactoryImpl.IComponent">
+<area shape="rect" id="node1" title="Defines common properties for all vehicle components. Does not apply to the abstract factory pattern,..." alt="" coords="521,5,704,127"/>
+<area shape="rect" id="node2" href="$interface_abstract_factory_l1_1_1_abstract_factory_impl_1_1_i_body.html" title="Car bodies. Defines general properties and methods specific to any corpus, no matter what family it b..." alt="" coords="212,189,395,296"/>
+<area shape="rect" id="node5" href="$interface_abstract_factory_l1_1_1_abstract_factory_impl_1_1_i_engine.html" title="Car engines. Defines general properties and methods specific to any engine, no matter what family it ..." alt="" coords="521,197,704,289"/>
+<area shape="rect" id="node8" href="$interface_abstract_factory_l1_1_1_abstract_factory_impl_1_1_i_tank.html" title="Fuel tanks of the car. Defines general properties and methods specific to any tank,..." alt="" coords="832,175,1015,311"/>
+<area shape="rect" id="node3" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_car_body.html" title="The body of a passenger car." alt="" coords="5,381,188,531"/>
+<area shape="rect" id="node4" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_truck_body.html" title="Truck body." alt="" coords="212,381,395,531"/>
+<area shape="rect" id="node6" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_car_engine.html" title="Car Endine." alt="" coords="419,388,601,524"/>
+<area shape="rect" id="node7" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_truck_engine.html" title="Truck engine." alt="" coords="625,388,808,524"/>
+<area shape="rect" id="node9" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_car_tank.html" title="Fuel tank of a passenger car." alt="" coords="832,359,1015,553"/>
+<area shape="rect" id="node10" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_truck_tank.html" title="Fuel tank of a truck." alt="" coords="1039,359,1221,553"/>
+</map>

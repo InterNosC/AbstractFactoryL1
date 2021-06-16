@@ -1,0 +1,12 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$interface_abstract_factory_l1_1_1_abstract_factory_impl_1_1_i_component.html" title="Defines common properties for all vehicle components. Does not apply to the abstract factory pattern,..." alt="" coords="5,168,188,209"/>
+<area shape="rect" id="node2" href="$interface_abstract_factory_l1_1_1_abstract_factory_impl_1_1_i_body.html" title="Car bodies. Defines general properties and methods specific to any corpus, no matter what family it b..." alt="" coords="236,71,419,112"/>
+<area shape="rect" id="node5" href="$interface_abstract_factory_l1_1_1_abstract_factory_impl_1_1_i_engine.html" title="Car engines. Defines general properties and methods specific to any engine, no matter what family it ..." alt="" coords="236,168,419,209"/>
+<area shape="rect" id="node8" href="$interface_abstract_factory_l1_1_1_abstract_factory_impl_1_1_i_tank.html" title="Fuel tanks of the car. Defines general properties and methods specific to any tank,..." alt="" coords="236,267,419,308"/>
+<area shape="rect" id="node3" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_car_body.html" title="The body of a passenger car." alt="" coords="467,5,649,47"/>
+<area shape="rect" id="node4" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_truck_body.html" title="Truck body." alt="" coords="467,71,649,112"/>
+<area shape="rect" id="node6" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_car_engine.html" title="Car Endine." alt="" coords="467,136,649,177"/>
+<area shape="rect" id="node7" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_truck_engine.html" title="Truck engine." alt="" coords="467,201,649,243"/>
+<area shape="rect" id="node9" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_car_tank.html" title="Fuel tank of a passenger car." alt="" coords="467,267,649,308"/>
+<area shape="rect" id="node10" href="$class_abstract_factory_l1_1_1_abstract_factory_impl_1_1_truck_tank.html" title="Fuel tank of a truck." alt="" coords="467,332,649,373"/>
+</map>
