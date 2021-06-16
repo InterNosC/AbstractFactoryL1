@@ -14,8 +14,6 @@
 
         public Body(string name, double aerodynamic, decimal price, double maxWeight, double weight)
         {
-            // TODO: проверка входных аргументов.
-
             Name = name;
             Aerodynamic = aerodynamic;
             Price = price;
